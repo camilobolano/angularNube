@@ -1,0 +1,15 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    padding: 16px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+.card h2 {
+    margin-top: 0;
+}
+.card p {
+    margin: 8px 0;
+}

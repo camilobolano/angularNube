@@ -1,0 +1,12 @@
+<form (ngSubmit)="loanadd()" [formGroup]="loanForm" method="post">
+   
+    
+
+    <label for="autor">fecha inicio:</label><br>
+    <input type="text" id="autor" name="autor" required formControlName="dateS"><br><br>
+
+    <label for="salida">fecha entrega:</label><br>
+    <input id="salida" name="salida" required formControlName="dateF"><br><br>
+
+    <input type="submit" value="Agregar">
+</form>
